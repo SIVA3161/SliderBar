@@ -6,14 +6,38 @@ html,body{
     height:100%;
     display: grid;
     place-items: center;
-
     background: #1974db;
 }
 .box{
     background: #ffffff;
-    padding: 20px 20px 20px 20px;
-    border-radius: 10px;
+    padding: 20px 20px 20px 30px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.1);
     display: flex ;
     align-items: center;
+}
+.box .slider{
+    height: 5px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.box .slider input{
+    height: 10px;
+    width:90%;
+    -webkit-appearance: none;
+    outline: none;
+    background: #f2f2f2;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
 
+
+.box .value{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #3498db;
+    width: 55px;
+    text-align: center;
 }
